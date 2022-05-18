@@ -1,0 +1,170 @@
+/* 
+#00f777
+#01543a
+#012026
+#000000
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.textMain {
+    padding-top: 0;
+    padding-bottom: 10%;
+}
+.imgPrincial {
+    width: 70%;
+    height: auto;
+    margin-left: 2em;
+}
+.h1Top {
+    font-size: 42px;
+    color: #01543a;
+    text-align: left;
+    margin-left: 0.8em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.h2Top {
+    font-size: 36px;
+    color: #01543a;
+    text-align: left;
+    margin-left: 0.8em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.p {
+    padding-top: 1em;
+    line-height: 1.8em;
+}
+.p::first-letter {
+    font-size: 60px;
+    float: left;
+    margin-right: 8px;
+    color: #01543a;
+}
+p {
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    padding-left: 1.5em;
+    text-align: left;
+    color: #1c1c1c;
+}
+.back {
+    width: 100%;
+    height:auto;
+    background:  url('../images/maosefolhas.png');
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titleTop {
+    margin-top: 0.7em;
+    color:#fff;
+    font-size: 6em;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.textTop {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 18%;
+    text-align: center;
+    color: #1c1c1c;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #00f777;
+}
+span {
+    color: #00f777;
+    font-weight: bold; 
+    font-family: 'Poppins', sans-serif;
+}
+.nameWomp {
+    color: #1755b3;
+    font-style: italic;
+    border-bottom: 2px solid #1755b3;
+    
+}
+.iconsContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.wave {
+    margin-top: 4em;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7em;
+    height: 75%;  
+}
+.cardBody {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.title {
+    text-align: center;
+    color: #01543a; 
+    font-size: 25px;
+}
+.iconBottom {
+    margin-top: 15px;
+    font-size: 7em;
+    margin-right: 5px;
+    color: #01543a;  
+}
+.cardText {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #1c1c1c;
+}
+
+@media (max-width: 575.98px) { 
+    .h1Top {
+        margin-top: 1em;
+        font-size: 30px;
+        color: #402377;
+        text-align: left;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+    .imgPrincial {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 75%;  
+    }
+    .titleTop {
+        margin-top: 0.7em;
+        color:#fff;
+        font-size: 4em;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+    .textTop {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 10px;
+        margin-bottom: 18%;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        background-color: #00f777;
+    }
+
+ }
