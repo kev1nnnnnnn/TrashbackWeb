@@ -21,7 +21,7 @@ const FooterPagePro = () => {
         <MDBRow className="mt-3">
           <MDBCol md="6" lg="4" xl="4" className="mb-4">
             <h6 className="text-uppercase font-weight-bold">
-              <strong>Womp Móvel</strong>
+              <strong>Trashback</strong>
             </h6>
             <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
             <p className="textFooterPrime">
@@ -59,7 +59,7 @@ const FooterPagePro = () => {
       </MDBContainer>
       <div className="footer-copyright text-center py-3 text-white">
       <MDBContainer fluid>
-          &copy; {new Date().getFullYear()} Copyright – Móvel Play® – <a href="www.movelplay.com">movelplay.com</a> – Todos os direitos reservados
+          &copy; {new Date().getFullYear()} Copyright – Trashback® – <a href="#">trashback.com</a> – Todos os direitos reservados
         </MDBContainer>
       </div>
     </MDBFooter>
